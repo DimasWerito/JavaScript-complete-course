@@ -150,7 +150,6 @@ checkWinner(576, 111);
 scoreDolphins = calcAverage(85, 54, 41);
 scoreKoalas = calcAverage(23, 34, 27);
 checkWinner(scoreDolphins, scoreKoalas);
-*/
 
 // ARRAYS
 const friend1 = "Michael";
@@ -194,3 +193,33 @@ const ages = [
   calcAge(year[year.length - 1]),
 ];
 console.log(ages);
+*/
+
+// Basic Array Methods
+
+// Add elements
+const friends = ["Michael", "Steven", "Peter"];
+const newLength = friends.push("Jay");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("John");
+console.log(friends);
+
+// Remove elements
+friends.pop(); // Last
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift(); // First
+console.log(friends);
+
+console.log(friends.indexOf("Steven"));
+console.log(friends.indexOf("Bob"));
+console.log(friends.includes("Steven"));
+console.log(friends.includes("Bob"));
+
+if (friends.includes("Steven")) {
+  console.log("Steven is a friend of mine");
+}

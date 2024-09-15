@@ -378,7 +378,7 @@ and is 1.95 m tall.
 IMPORTANT: The ** operator is not supported in this editor. 
 Please make sure to use exactly this formula mass / (height * height), 
 and not this one mass / (height ** 2).
-*/
+
 
 const mark = {
   fullName: "Mark Miller",
@@ -412,4 +412,11 @@ if (mark.bmi > john.bmi) {
   console.log(
     `${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})!`
   );
+}
+*/
+
+//Iteration: The for Loop
+
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
 }
